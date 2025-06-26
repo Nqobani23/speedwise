@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/placeholderFragment"
+    android:id="@+id/nav_graph3">
+
+    <fragment
+        android:id="@+id/placeholderFragment"
+        android:name="androidx.fragment.app.Fragment"
+        android:label="Placeholder" />
+</navigation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#001C64"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:src="@drawable/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="App Logo" />
+
+        <!-- Min Budget -->
+        <EditText
+            android:id="@+id/etMinBudget"
+            android:hint="Minimum Budget"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="32dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#CCCCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Max Budget -->
+        <EditText
+            android:id="@+id/etMaxBudget"
+            android:hint="Maximum Budget"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="16dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#CCCCCC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/btnCheckBudget"
+            android:text="Check My Budget"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/tvBudgetResult"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

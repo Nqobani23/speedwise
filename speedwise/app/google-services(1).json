@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "719694187277",
+    "firebase_url": "https://spendwisepoe-default-rtdb.firebaseio.com",
+    "project_id": "spendwisepoe",
+    "storage_bucket": "spendwisepoe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719694187277:android:1bbdc6c832e9d544e93e44",
+        "android_client_info": {
+          "package_name": "com.example.speedwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbEm6qYNS-4fjzgqnxIsgYVz87AR2dUTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719694187277:android:d9bf3034c2f19c92e93e44",
+        "android_client_info": {
+          "package_name": "com.example.spendwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbEm6qYNS-4fjzgqnxIsgYVz87AR2dUTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
